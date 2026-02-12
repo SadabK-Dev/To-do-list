@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main windows container */
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    width: 65rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.hero:focus{
+    outline: none;
+}
+.userH1{
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+}
+.inputsUser{
+    margin-top: 3rem;
+}
+.inputUser{
+    width:300px;
+    height: 40px;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.submitUser{
+    width: 90px;
+    height: 40px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    background-color: rgb(56, 255, 105);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.submitUser:hover{
+    background-color: rgb(56, 200, 105);
+}
+.listsUser{
+    margin-top: 3rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    list-style: none;
+}
+.listUser{
+    width: 400px;
+    height: 40px;
+    padding: 5px 20px;
+    font-size: 1.4rem;
+    color: black;
+    background-color: hsla(149, 27%, 58%, 0.478);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.listDelete{
+    padding:  0 0.7rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: hsl(0, 100%, 50%);
+}
+.listDelete:hover{
+     background-color: hsl(0, 40%, 50%);
+}
+.listUser:nth-child(even){
+    background-color: white;
+    margin-top: 3px;
+}
+.text{
+    cursor: pointer;
+}
+.marked{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
